@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    background-color: #f2e8df;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login, .signup {
+    margin-top: 20px;
+  }
+  
+  .login h2, .signup h2 {
+    text-align: center;
+  }
+  
+  .login form, .signup form {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-family: 'Lucida Sans';
+  }
+  
+  .login form input, .signup form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login form input[type="submit"], .signup form input[type="submit"] {
+    background-color: #c4b8ac;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup form input[type="submit"]:hover {
+    background-color: #c4b8ac;
+  }
+
+  .hyperlink{
+    text-decoration: none;
+    color: black;
+  }
+  
