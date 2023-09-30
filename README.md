@@ -1,2 +1,1 @@
-# Bitnine-Coding-Test
-Landing/Website Page for Ramani Digital LLC
+#Landing/Website Page for Ramani Digital LLC
