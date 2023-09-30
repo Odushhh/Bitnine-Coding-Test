@@ -1,94 +1,140 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-head{
+
+head {
     background-color: #f2e8df
 }
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-    padding: 0;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
 }
+
 
 /*Navigation Bar*/
 
-.nav-bar{
+.nav-bar {
     background-color: #f2e8df;
-    width: 100%;
-    height: 73px;
+    width: 1200%;
+    height: 75px;
     position: fixed;
-    top: 0;   
+    top: 0;
     left: 0;
     width: 100%;
-    z-index: 10; 
+    z-index: 10;
+    padding: 20px;
+    box-shadow: 4px black;
 }
-.logo{
+
+.logo {
     position: absolute;
     padding-left: 152px;
-    padding-top: 10px;
+    padding-top: 5px;
+    width: 20%;
 }
-.nav-items{
+
+.nav-items {
     position: absolute;
-    padding: 20px;
+    padding: 10px;
     padding-top: 27px;
     text-decoration: none;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
+    justify-content: space-between;
 }
-.nav-items:hover{
+
+.nav-items:hover {
     color: darkgrey;
     transition: 0.2s ease-in-out;
 }
 
-.container2{
+.container2 {
     position: relative;
 }
-.text-box1{
+
+.text-box1 {
     position: absolute;
-    left: 550px;
-    top: 310px;
+    left: 1000px;
+    top: 500px;
     background-color: #c4b8ac;
     color: black;
-    width: 39%;
-    height: 70%;
+    width: 30%;
+    height: 60%;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 3px;
     box-shadow: 5px 5px 4px black;
 }
 
+
 /*About Us Section*/
 
-.about-page{
+.about-page {
     background-color: white;
-    padding-left: 160px;
-    padding-right: 115px;    
+    padding-left: 270px;
+    padding-right: 270px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.about-us{
+.about-us {
     background-color: #8a5c4d;
-    padding-left: 160px;
-    padding-right: 115px;    
+    padding-left: 270px;
+    padding-right: 275px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
+.container4 {
+    position: relative;
+}
+
+.vision-box {
+    position: absolute;
+    left: 200px;
+    top: 700px;
+    background-color: #c4b8ac;
+    color: black;
+    width: 27%;
+    height: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 4px black;
+}
+
+.mission-box {
+    position: absolute;
+    left: 700px;
+    top: 700px;
+    background-color: #c4b8ac;
+    color: black;
+    width: 27%;
+    height: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 4px black;
+}
+
+
 /*Our Services Section*/
 
-.container3{
+.container3 {
     list-style: none;
+    position: relative;
 }
-.box1{
+
+.box1 {
     position: absolute;
-    left: 200px;
-    right: 100px;
+    left: 150px;
     background-color: #c4b8ac;
     color: black;
-    width: 15%;
-    height: 30%;
+    width: 22%;
+    height: 50%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 22px;
@@ -96,14 +142,14 @@ body {
     border-radius: 3px;
     box-shadow: 5px 5px 4px black;
 }
-.box2{
+
+.box2 {
     position: absolute;
-    left: 500px;
-    right: 100px;
+    left: 550px;
     background-color: #c4b8ac;
     color: black;
-    width: 15%;
-    height: 30%;
+    width: 22%;
+    height: 50%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 22px;
@@ -111,14 +157,14 @@ body {
     border-radius: 3px;
     box-shadow: 5px 5px 4px black;
 }
-.box3{
+
+.box3 {
     position: absolute;
-    left: 800px;
-    right: 100px;
+    left: 950px;
     background-color: #c4b8ac;
     color: black;
-    width: 15%;
-    height: 30%;
+    width: 22%;
+    height: 50%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 22px;
@@ -126,14 +172,14 @@ body {
     border-radius: 3px;
     box-shadow: 5px 5px 4px black;
 }
-.box4{
+
+.box4 {
     position: absolute;
-    left: 200px;
-    right: 100px;
+    left: 150px;
     background-color: #c4b8ac;
     color: black;
-    width: 15%;
-    height: 30%;
+    width: 22%;
+    height: 50%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 22px;
@@ -141,14 +187,14 @@ body {
     border-radius: 3px;
     box-shadow: 5px 5px 4px black;
 }
-.box5{
+
+.box5 {
     position: absolute;
-    left: 500px;
-    right: 100px;
+    left: 550px;
     background-color: #c4b8ac;
     color: black;
-    width: 15%;
-    height: 30%;
+    width: 22%;
+    height: 50%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 22px;
@@ -156,14 +202,14 @@ body {
     border-radius: 3px;
     box-shadow: 5px 5px 4px black;
 }
-.box6{
+
+.box6 {
     position: absolute;
-    left: 800px;
-    right: 100px;
+    left: 950px;
     background-color: #c4b8ac;
     color: black;
-    width: 15%;
-    height: 30%;
+    width: 22%;
+    height: 50%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 22px;
@@ -171,72 +217,86 @@ body {
     border-radius: 3px;
     box-shadow: 5px 5px 4px black;
 }
+
 
 /*Testimonials Section*/
 
-.testimonies{
+.testimonies {
     background-color: #c4b8ac;
-    padding-top: 30px;
-    padding-left: 160px;
-    padding-right: 115px;
+    padding-left: 270px;
+    padding-right: 270px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
-.testimony{
+
+.testimony {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
 }
-.testimony .tab-nav{
+
+.testimony .tab-nav {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.testimony .tab-nav li{
+
+.testimony .tab-nav li {
     float: left;
     margin-right: 20px;
 }
-.testimony .tab-nav li a{
+
+.testimony .tab-nav li a {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
     color: #333;
     border: 1px solid #ddd;
 }
-.testimony .tab-nav li a.active{
+
+.testimony .tab-nav li a.active {
     background-color: #f0f0f0;
     color: #000;
     border: 1px solid #ddd;
 }
-.testimony .tab-content{
+
+.testimony .tab-content {
     display: none;
 }
-.testimony .tab-content.active{
+
+.testimony .tab-content.active {
     display: block;
 }
-.testimonial{
+
+.testimonial {
     padding: 20px;
     background-color: #f9f9f9;
 }
-.testimonial .quote{
+
+.testimonial .quote {
     font-size: 18px;
     font-weight: bold;
 }
-.testimonial .author{
+
+.testimonial .author {
     font-size: 14px;
     color: #999;
 }
 
+
 /*Contact Us Section*/
 
-.contact-us{
+.contact-us {
     background-color: #84746c;
     padding-top: 30px;
-    padding-left: 200px;
-    padding-right: 115px;
     padding-bottom: 20px;
     color: white;
+    padding-left: 270px;
+    padding-right: 270px;
+    align-content: center;
 }
-.write-here{
+
+.write-here {
     height: 10px;
     border: 1px solid #84746c;
     padding: 12px;
@@ -244,12 +304,16 @@ body {
     border-bottom: 2px solid white;
     background-color: transparent;
 }
-.write-here:hover{
+
+.write-here:hover {
     border-bottom: 2px solid black;
     transition: 0.2s ease-in-out;
 }
+
+
 /*Submit button*/
-.submit-btn{
+
+.submit-btn {
     position: absolute;
     left: 550px;
     background-color: transparent;
@@ -259,13 +323,17 @@ body {
     font-size: 17px;
     padding: 10px;
 }
-.submit-btn:hover{
+
+.submit-btn:hover {
     background-color: #c4b8ac;
     border-radius: 2px;
     transition: 0.3s ease-in;
 }
+
+
 /*Scroll Back Up arrow*/
-.scroll-back-up-arrow{
+
+.scroll-back-up-arrow {
     width: 25px;
     height: 25px;
     background-color: transparent;
@@ -278,25 +346,27 @@ body {
     font-size: 20px;
 }
 
-
-.socials{
+.socials {
     position: absolute;
     right: 250px;
-    top: 3500px;    
+    top: 3500px;
 }
-.socials a{
+
+.socials a {
     text-decoration: none;
     color: white;
 }
-.socials a:hover{
+
+.socials a:hover {
     color: grey;
     transition: 0.2s ease-out;
 }
-.footer{
+
+.footer {
     font-size: 10px;
     font-family: Verdana;
     color: white;
-    background-color: black;   
-    text-align: center; 
+    background-color: black;
+    text-align: center;
     padding: 1px;
 }
